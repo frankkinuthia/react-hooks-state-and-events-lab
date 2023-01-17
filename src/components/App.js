@@ -20,7 +20,7 @@ function App() {
     <div className={isDark? "App dark" : "App light"}>
       <header>
         <h2>Shopster</h2>
-        <button onClick={buttonClick}>Toggle view Mode</button>
+        <button onClick={buttonClick}>Dark Mode</button>
       </header>
       <ShoppingList items={itemData} />
     </div>
